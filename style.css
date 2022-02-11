@@ -276,7 +276,7 @@ body {
 }
 .cube-populaires:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 .cube-details-populaires {
   width: 60%;
