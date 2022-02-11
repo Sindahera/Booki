@@ -147,10 +147,13 @@ body {
 
 .filtre-texte-icons:hover > .filtre-texte {
   color: #0065fc;
+  background-color: aquamarine;
+  cursor: pointer;
 }
 .filtre-texte-icons:hover > .filtre-icons {
   color: white;
   background-color: #0065fc;
+  cursor: not-allowed;
 }
 .filtre-texte {
   height: 50px;
