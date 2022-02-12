@@ -218,7 +218,7 @@ body {
 }
 .cube-hebergements:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  opacity: 0.6;
 }
 .cube-details-hebergements {
   width: 90%;
@@ -276,7 +276,7 @@ body {
 }
 .cube-populaires:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  opacity: 0.7;
 }
 .cube-details-populaires {
   width: 60%;
@@ -306,7 +306,7 @@ body {
   margin-bottom: 50px;
 }
 .bloc-activites {
-  width: 98%;
+  width: 100%;
   height: 600px;
 }
 .bloc-activites2356 {
