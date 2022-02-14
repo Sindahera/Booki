@@ -2,7 +2,6 @@
 html,
 body {
   font-family: Raleway, Arial, sans-serif;
-  background-color: inherit;
 }
 .flex-centre {
   display: flex;
@@ -225,40 +224,10 @@ body {
 .cube-details-hebergements {
   width: 90%;
 }
-.img-hebergements1 {
+.img-hebergements1 ,.img-hebergements2 ,.img-hebergements3,.img-hebergements4,.img-hebergements5,.img-hebergements6 {
   object-fit: cover;
   width: 100%;
-  height: 110px;
-  border-radius: 15px 15px 0 0;
-}
-.img-hebergements2 {
-  object-fit: cover;
-  width: 100%;
-  height: 110px;
-  border-radius: 15px 15px 0 0;
-}
-.img-hebergements3 {
-  object-fit: cover;
-  width: 100%;
-  height: 110px;
-  border-radius: 15px 15px 0 0;
-}
-.img-hebergements4 {
-  object-fit: cover;
-  width: 100%;
-  height: 110px;
-  border-radius: 15px 15px 0 0;
-}
-.img-hebergements5 {
-  object-fit: cover;
-  width: 100%;
-  height: 110px;
-  border-radius: 15px 15px 0 0;
-}
-.img-hebergements6 {
-  object-fit: cover;
-  width: 100%;
-  height: 110px;
+  height: 6.875em;
   border-radius: 15px 15px 0 0;
 }
 /* Populaires */
@@ -284,19 +253,7 @@ body {
   width: 60%;
   padding-left: 5%;
 }
-.img-populaires1 {
-  object-fit: cover;
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 0 0 15px;
-}
-.img-populaires2 {
-  object-fit: cover;
-  width: 35%;
-  height: 160px;
-  border-radius: 15px 0 0 15px;
-}
-.img-populaires3 {
+.img-populaires1 , .img-populaires2, .img-populaires3 {
   object-fit: cover;
   width: 35%;
   height: 160px;
