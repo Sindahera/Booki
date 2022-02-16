@@ -153,7 +153,6 @@ body {
 .filtre-texte-icons:hover > .filtre-icons {
   color: white;
   background-color: #0065fc;
-  cursor: not-allowed;
 }
 .filtre-texte {
   height: 50px;
@@ -219,7 +218,9 @@ body {
 }
 .cube-hebergements:hover {
   cursor: pointer;
-  opacity: 0.6;
+  opacity: 0.8;
+  transition-duration: .25s;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
 }
 .cube-details-hebergements {
   width: 90%;
@@ -247,7 +248,9 @@ body {
 }
 .cube-populaires:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.8;
+  transition-duration: .25s;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
 }
 .cube-details-populaires {
   width: 60%;
@@ -280,7 +283,8 @@ body {
 }
 .cube-activites:hover {
   cursor: pointer;
-  transform: scale(1.03);
+  transform: scale(1.01);
+  opacity: 0.8;
 }
 .cube-activites2356 {
   width: 100%;
@@ -289,7 +293,9 @@ body {
 }
 .cube-activites2356:hover {
   cursor: pointer;
-  transform: scale(1.03);
+  opacity: 0.8;
+  transition-duration: .25s;
+  box-shadow: 0.25rem 0.25rem 10px rgb(0 0 0 / 25%);
 }
 /* fin reglage bloc */
 .hauteur-titre {
